@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-       header: "1O1 Globals",
+       header: "1O1 Global",
     }
   }
 
