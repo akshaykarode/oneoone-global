@@ -8,7 +8,7 @@ class Home extends React.Component {
           <section className="hero-banner">
             <div className="custom-container">
               <div className="hero-banner-content">
-                <h2 className="hero-banner-title">Lorem ipsum dolor sit amet</h2>
+                <h2 className="hero-banner-title">One O One Global</h2>
                 <div className="hero-banner-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel risus urna. Suspendisse pretium bibendum ornare.</p></div>
               </div>
             </div>
