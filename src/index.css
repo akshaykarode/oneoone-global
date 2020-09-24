@@ -23,16 +23,16 @@ ul{ list-style-type: none; padding: 0}
 .default-section ul{ padding: 0; list-style-type: none;}
 .default-section li{ margin:  0 0 10px; position: relative;}
 .default-section li>div{ padding-left: 30px;}
-.default-section li:after{ position: absolute; content:'\27A2'; color: var(--purple); font-size: 16px; left: 0; top: 0;}
+.default-section li:after{ position: absolute; content:'\27A2'; color: url("./images/Theme-Background.png"); font-size: 16px; left: 0; top: 0;}
 
 .navbar{ padding: 15px 0;}
 .default-section.section-purple{ color: var(--grey)}
 .default-section.section-purple .default-section-title{ color: var(--white);}
-#section-company-brief:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: 10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: var(--purple); z-index: -1; }
+#section-company-brief:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: 10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: url("./images/Theme-Background.png"); z-index: -1; }
 .default-section li:after{ position: absolute; content:'\27A2'; color: var(--white); font-size: 16px; left: 0; top: 0;}
 
-footer{ background: var(--purple); color: var(--grey); padding: 40px 0; position: relative; font-size: 13px;}
-footer:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: -10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: var(--purple); z-index: -1; }
+footer{ background: url("./images/Theme-Background.png"); color: var(--grey); padding: 40px 0; position: relative; font-size: 13px;}
+footer:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: -10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: url("./images/Theme-Background.png"); z-index: -1; }
 footer .footer-title{ font-size: 13px; margin:  0 0 8px; font-weight: 700; color: var(--white);}
 footer ul li a{ color: var(--grey);}
 footer ul li a:hover, footer ul li a:active, footer ul li a:focus{ text-decoration: none; outline: none; color: var(--grey);}
