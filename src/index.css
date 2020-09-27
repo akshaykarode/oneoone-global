@@ -39,7 +39,18 @@ footer ul li a{ color: var(--grey);}
 footer ul li a:hover, footer ul li a:active, footer ul li a:focus{ text-decoration: none; outline: none; color: var(--grey);}
 footer address{ line-height: 1.8;}
 footer .copy-right{ padding: 30px  0 0; border-top: 1px solid var(--grey); margin-top: 45px;}
-.custom-section-seperator{ height:5px; background-image: linear-gradient(to right, var(--grey), var(--yellow),var(--red), var(--bluelight), var(--green)); }
+.custom-section-seperator{ height:5px; background: linear-gradient(to right, var(--grey), var(--yellow),var(--red), var(--bluelight), var(--green));}
+.custom-element-bg-grey{ background: var(--grey);}
+.custom-element-bg-yellow{ background: var(--yellow);}
+.custom-element-bg-red{ background: var(--red);}
+.custom-element-bg-bluelight{ background: var(--bluelight);}
+.custom-element-bg-green{ background: var(--green);}
+
+.custom-text-grey{ color: var(--grey);}
+.custom-text-yellow{ color: var(--yellow);}
+.custom-text-red{ color: var(--red);}
+.custom-text-bluelight{ color: var(--bluelight);}
+.custom-text-green{ color: var(--green);}
 /* Media queries */
 @media screen and (min-width: 1200px){
   .custom-container{ max-width: 1000px; margin: 0 auto;}
