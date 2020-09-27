@@ -13,6 +13,7 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
+          <div className="custom-section-seperator"></div>
           <section className="default-section section-purple" id="section-company-brief">
             <div className="custom-container">
               <h2 className="default-section-title">Company Brief</h2>
@@ -29,6 +30,7 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
+          <div className="custom-section-seperator"></div>
           <section className="default-section" id="section-team">
             <div className="custom-container">
               <h2 className="default-section-title">Our Team</h2>
@@ -38,6 +40,7 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
+          <div className="custom-section-seperator"></div>
         </div>
        );
     }
