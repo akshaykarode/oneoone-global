@@ -1,0 +1,69 @@
+:root{
+  --black : #3e3e3e; --white: #fff; --grey:#b3b3b3; --purple : #5e3658; --pink : #e21c58; 
+   --bluelight : #33c5f3;
+   --blue : #1269bc;
+   --yellow: #f3b917;
+   --red: #da4c3f;
+   --green: #4da78c;
+}
+html, body{ position: relative; font-family: 'Noto Sans HK', sans-serif; color: var(--black); font-weight: 13px; font-weight: 300;}
+h1, h2, h3, h4, h5, h6{ margin: 0 0 15px; line-height: 1.3;}
+p{ margin: 0 0 10px; line-height: 2.12;}
+ul{ list-style-type: none; padding: 0}
+.custom-container{padding: 0 30px;}
+.hero-banner{ min-height: 600px; padding: 80px 0; position: relative;}
+.hero-banner .hero-banner-content{ transform: translate(0%, 45%); font-size: 26px;}
+.hero-banner .hero-banner-title{ font-size: 42px; font-weight: bold;}
+/* .hero-banner:before{ content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: 50% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; z-index: -1; background: var(--white);} */
+
+.default-section { padding: 60px 0 200px;  position: relative;}
+.default-section .default-section-title { font-size: 26px; text-transform: uppercase; position: relative; margin: 0 0 40px; color: var(--black);}
+.default-section .default-section-title:after{ height: 2px; background: var(--grey); content:''; width: 60px; display: block; margin-top: 8px;  }
+.default-section p { margin-bottom: 30px;}
+.default-section p:last-of-type { margin-bottom: 0;}
+.default-section ul{ padding: 0; list-style-type: none;}
+.default-section li{ margin:  0 0 10px; position: relative;}
+.default-section li>div{ padding-left: 30px;}
+.default-section li:after{ position: absolute; content:'\27A2'; color: url("./../img/og/black-theme.png"); font-size: 16px; left: 0; top: 0;}
+
+.navbar{ padding: 15px 0;}
+.default-section.section-purple{ color: var(--grey); background: url("./../img/og/black-theme.png");}
+.default-section.section-purple .default-section-title{ color: var(--white); }
+/* #section-company-brief:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: 10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: url("./../img/og/black-theme.png"); z-index: -1; } */
+.default-section li:after{ position: absolute; content:'\27A2'; color: var(--white); font-size: 16px; left: 0; top: 0;}
+
+footer{ background: url("./../img/og/black-theme.png"); color: var(--grey); padding: 40px 0; position: relative; font-size: 13px;}
+/* footer:before{content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: -10% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: url("./../img/og/black-theme.png"); z-index: -1; } */
+footer .footer-title{ font-size: 13px; margin:  0 0 8px; font-weight: 700; color: var(--white);}
+footer ul li a{ color: var(--grey);}
+footer ul li a:hover, footer ul li a:active, footer ul li a:focus{ text-decoration: none; outline: none; color: var(--grey);}
+footer address{ line-height: 1.8;}
+footer .copy-right{ padding: 30px  0 0; border-top: 1px solid var(--grey); margin-top: 45px;}
+.custom-section-seperator{ height:5px; background: linear-gradient(to right, var(--grey), var(--yellow),var(--red), var(--bluelight), var(--green));}
+.custom-element-bg-grey{ background: var(--grey);}
+.custom-element-bg-yellow{ background: var(--yellow);}
+.custom-element-bg-red{ background: var(--red);}
+.custom-element-bg-bluelight{ background: var(--bluelight);}
+.custom-element-bg-green{ background: var(--green);}
+
+.custom-text-grey{ color: var(--grey);}
+.custom-text-yellow{ color: var(--yellow);}
+.custom-text-red{ color: var(--red);}
+.custom-text-bluelight{ color: var(--bluelight);}
+.custom-text-green{ color: var(--green);}
+/* Media queries */
+@media screen and (min-width: 1200px){
+  .custom-container{ max-width: 1000px; margin: 0 auto;}
+}
+
+@media screen and (max-width: 767px){
+  .hero-banner .hero-banner-title{ font-size: 28px;}
+  .hero-banner .hero-banner-content{ font-size: 22px;}
+  footer ul{ margin:  0 -10px 40px; }
+  footer ul li{ display: inline; padding: 0 10px; border-right: 1px solid var(--grey);}
+  footer ul li:last-of-type{border-right: none;}
+}
+@media screen and (max-width: 568px){
+  .hero-banner{ min-height: unset;}
+  .hero-banner .hero-banner-content{transform: translate(0%, 0%);}
+}
