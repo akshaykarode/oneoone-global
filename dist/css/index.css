@@ -16,7 +16,7 @@ ul{ list-style-type: none; padding: 0}
 .hero-banner .hero-banner-title{ font-size: 42px; font-weight: bold;}
 /* .hero-banner:before{ content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; transform: skew(0, -10deg); transform-origin: 50% 0; outline: 1px solid transparent; -webkit-backface-visibility: hidden; backface-visibility: hidden; z-index: -1; background: var(--white);} */
 
-.default-section { padding: 60px 0 200px;  position: relative;}
+.default-section { padding: 60px 0 50px;  position: relative;}
 .default-section .default-section-title { font-size: 26px; text-transform: uppercase; position: relative; margin: 0 0 40px; color: var(--black);}
 .default-section .default-section-title:after{ height: 2px; background: var(--grey); content:''; width: 60px; display: block; margin-top: 8px;  }
 .default-section p { margin-bottom: 30px;}

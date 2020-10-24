@@ -6,6 +6,14 @@ OOO
   blue : #39c5f0
   green : #2eb67c
 */
+.ooo-white {
+  color: #ffffff;
+}
 .ooo-gray {
   color: #b3b3b4;
+}
+/* brief */
+.ooo-brief-text {
+  font-size: 21px;
+  line-height: 32px;
 }
