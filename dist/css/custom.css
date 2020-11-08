@@ -17,3 +17,6 @@ OOO
   font-size: 21px;
   line-height: 32px;
 }
+.submenu-items {
+  border: none !important;
+}

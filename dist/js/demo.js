@@ -423,4 +423,10 @@
     $('.product-image-thumb.active').removeClass('active');
     $(this).addClass('active');
   });
+
+  /* Custom OneOOne Global Javascript */
+  $("#menu-services").hover(
+    function(){ $('#menu-services-items').addClass('show') },
+    function(){ $('#menu-services-items').removeClass('show') }
+  );
 })(jQuery)
